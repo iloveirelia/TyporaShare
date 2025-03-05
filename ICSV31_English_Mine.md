@@ -18,7 +18,7 @@ All papers must be submitted through the congress website [**http://www.icsv31.o
 
 2. # **Numerical methods**
 
-The conservative form of the three-dimensional compressible Favre-filtered Navier-Stokes equations in Cartesian coordinates are used as the governing equations u<sub>1</sub>
+The conservative form of the three-dimensional compressible Favre-filtered Navier-Stokes equations in Cartesian coordinates are used as the governing equations
 
 $$
 \boldsymbol Q=\begin{pmatrix}
@@ -52,9 +52,10 @@ $$
 \overline{\rho} \widetilde{u}_3 \widetilde{u}_3 + \overline{p} \\
 (\overline{\rho} \widetilde{e} + \overline{p}) \widetilde{u}_3 \\
 \end{pmatrix}
+\tag{2.2}
 $$
 
-
+The seven-point dispersion-relation-preserving (DRP) scheme is used for spatial discretization.
 
 
 The most important parameters are hereinafter described:
